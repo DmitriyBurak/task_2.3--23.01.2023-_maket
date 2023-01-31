@@ -50,6 +50,10 @@ body {
     line-height: 22px;
     align-items: center;
     color: #ffffff;
+    transition: all 0.3s;
+  }
+  .butLetsGo:hover {
+    transform: scale(1.05);
   }
 }
 
@@ -62,6 +66,8 @@ body {
   .game {
     width: 380px;
     height: 300px;
+    border-radius: 16px;
+    transition: all 0.4s;
     p {
       font-style: normal;
       font-weight: 600;
@@ -72,6 +78,9 @@ body {
       padding-top: 236px;
       padding-left: 32px;
     }
+  }
+  .game:hover {
+    transform: scale(1.05);
   }
   .gameOne {
     background-image: url(../img/games-game1.jpg);
